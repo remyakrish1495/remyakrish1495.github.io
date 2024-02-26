@@ -1,0 +1,50 @@
+<header>
+  <div class="container">
+    <div class="bg-stat">
+      <nav class="link">
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu">About</button>
+          <mat-menu #menu="matMenu">
+            <app-about></app-about>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu1">Experience</button>
+          <mat-menu #menu1="matMenu">
+            <app-experience></app-experience>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu2">Projects</button>
+          <mat-menu #menu2="matMenu">
+            <app-projects></app-projects>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu3">Skills</button>
+          <mat-menu #menu3="matMenu">
+            <app-skills></app-skills>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu4">Education</button>
+          <mat-menu #menu4="matMenu">
+            <app-education></app-education>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu5">Reference</button>
+          <mat-menu #menu5="matMenu">
+            <app-references></app-references>
+          </mat-menu>
+        </a>
+        <a>
+          <button mat-button [matMenuTriggerFor]="menu6">Contact</button>
+          <mat-menu #menu6="matMenu">
+            <app-contacts></app-contacts>
+          </mat-menu>
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>

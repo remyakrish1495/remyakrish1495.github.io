@@ -1,0 +1,216 @@
+
+  
+  /*  About  */
+  .about {
+    background: radial-gradient(#e1efff, white);
+  }
+  .about .title::after {
+    content: "—Who I Am ?—";
+    text-overflow: ellipsis;
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  
+  .about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .about .about-content .right {
+    width: 55%;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  /* Linear Gradiant */
+  .about .about-content .right .text span {
+    /* color: #1e3551; */
+    background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .about .about-content .right p {
+    text-align: justify;
+  }
+  
+  .about .about-content .right a {
+    display: inline-block;
+    background: #1e3551;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #1e3551;
+    transition: all 0.3s ease;
+  }
+  
+  .about .about-content .right a:hover {
+    color: #1e3551;
+    background: none;
+    animation: pulsate 1s ease-in-out;
+  }
+  
+  
+  
+  /*  Media Query  */
+  @keyframes pulsate {
+    0% {
+      box-shadow: 0 0 25px #888e8d, 0 0 50px #1e3551;
+    }
+  }
+  
+  @media (max-width: 1104px) {
+    .about .about-content .left img {
+      height: 350px;
+      width: 350px;
+    }
+    section .title::after {
+      bottom: -8px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .social-menu ul li a {
+      left: 114px;
+    }
+  }
+  
+  @media (max-width: 947px) {
+    .menu-btn {
+      display: block;
+      z-index: 999;
+    }
+    .menu-btn i.active:before {
+      content: "\f00d";
+    }
+    .navbar .menu {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background: #111;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+    }
+    .navbar .menu.active {
+      left: 0;
+    }
+    .navbar .menu li {
+      display: block;
+    }
+    .navbar .menu li a {
+      display: inline-block;
+      margin: 20px 0;
+      font-size: 25px;
+    }
+    .home .home-content .text-2 {
+      font-size: 70px;
+    }
+    .home .home-content .text-3 {
+      font-size: 35px;
+    }
+    .home .home-content a {
+      font-size: 23px;
+      padding: 10px 30px;
+    }
+    .max-width {
+      max-width: 930px;
+    }
+    .about .about-content .column {
+      width: 100%;
+    }
+    .about .about-content .left {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+      flex: 100%;
+    }
+    .services .serv-content .card {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .max-width {
+      padding: 0 23px;
+    }
+    .home .home-content .text-2 {
+      font-size: 60px;
+    }
+    .home .home-content .text-3 {
+      font-size: 32px;
+    }
+    .home .home-content a {
+      font-size: 20px;
+    }
+    .services .serv-content .card {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .home .home-content .text-2 {
+      font-size: 50px;
+    }
+    .home .home-content .text-3 {
+      font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text {
+      font-size: 19px;
+    }
+    .contact .right form .fields {
+      flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email {
+      margin: 0;
+    }
+    .right form .error-box {
+      width: 150px;
+    }
+    .scroll-up-btn {
+      right: 15px;
+      bottom: 15px;
+      height: 38px;
+      width: 35px;
+      font-size: 23px;
+      line-height: 38px;
+    }
+  }
+  .section-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .home-content .text-1 ,.text-2 , .text-3{
+    color: #000;
+  }
