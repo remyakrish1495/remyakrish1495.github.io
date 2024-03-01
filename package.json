@@ -1,7 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "0.0.0",
-  "homepage": "https://remyakrish1495.github.io/remyakrish1495.github.io/docs",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
