@@ -12,7 +12,6 @@ import { switchMap, take, takeUntil } from 'rxjs/operators';
 export class HomeComponent implements OnInit {
   showDoc: boolean = false;
   IsResume: boolean = false;
-  title: string = 'ng2-pdf-viewer';
   src: string = 'assets/Resume.pdf';
   formCaption: string = 'Resume'
   profilePic = '/src/assets/images/REMYA.jpg'
