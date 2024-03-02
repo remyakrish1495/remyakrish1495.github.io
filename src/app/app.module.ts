@@ -7,7 +7,6 @@ import { HomeComponent } from './Home/home/home.component';
 import { NgxDocViewerModule } from 'ngx-doc-viewer';
 import { DialogModule } from '@progress/kendo-angular-dialog';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { HttpClientModule } from '@angular/common/http';
 // import {MatIcon} from '@angular/material/icon';
 import { MatIconModule } from '@angular/material/icon';
@@ -42,7 +41,6 @@ import { ContactsComponent } from './contacts/contacts.component';
     NgxDocViewerModule,
     DialogModule,
     BrowserAnimationsModule,
-    PdfViewerModule,
     HttpClientModule,
     // MatIcon,
     MatIconModule,
