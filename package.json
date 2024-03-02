@@ -28,7 +28,6 @@
     "@progress/kendo-angular-popup": "^5.0.0",
     "@progress/kendo-licensing": "^1.3.0",
     "@progress/kendo-svg-icons": "^1.5.0",
-    "ng2-pdf-viewer": "^9.1.5",
     "ngx-doc-viewer": "1.4.1",
     "pspdfkit": "^2023.3.2",
     "rxjs": "~6.6.0",
