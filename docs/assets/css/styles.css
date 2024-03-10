@@ -573,7 +573,25 @@ section .title::after {
 }
 
 /*  Skills  */
-.skills {
+.skills .title::after {
+  content: "—What I Know ?—";
+}
+
+.skills-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.skills-content .column.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-content .column.right .row {
+  margin: 1px !important; /* Adjust the margin as needed */
+}
+
+/* .skills {
   background: radial-gradient(#e1efff, white);
 }
 
@@ -683,7 +701,8 @@ section .title::after {
 
 .skills-content .right .sql::before {
   width: 90%;
-}
+} */
+
 
 /*  Projects  */
 .projects .title::after {
