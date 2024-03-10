@@ -1,0 +1,49 @@
+.skill-rating {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    /* Adjust the margin to add space between skills */
+    margin-bottom: 10px;
+}
+
+.skill-demo {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Adjust the margin to add space between skillName and stars */
+    font-size: 25px;
+}
+
+.stars span {
+    color: #ccc;
+    margin: 0 5px;
+    /* Adjust the margin to add space between stars */
+}
+
+.stars span.active {
+    color: gold;
+}
+
+.stars-container {
+    margin-left: auto;
+  }
+
+.skillName {
+    /* position: absolute; */
+    /* bottom: -8px; */
+    /* left: 50%; */
+    font-size: 20px;
+    color: #1e3551; /* Darken the color of the skill name */
+    /* padding: 0 5px; */
+    /* transform: translateX(-50%); */
+}
