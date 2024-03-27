@@ -346,7 +346,30 @@ a {
   position: relative;
   line-height: 0;
 }
-.experience-wrapper i{
+.experience-wrapper i {
   border-radius: 0;
   padding: 0;
+}
+@media screen and (max-width: 600px) {
+  .section .overlay-wrapper,
+  .section .section-wrapper {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .timeline-img {
+    display: none;
+  }
+  .timeline-content {
+    width: 100% !important;
+  }
+  .date{
+    display: none !important;
+  }
+}
+@media screen and (min-width:455px) {
+  .mob-date{
+    display: none !important;
+  }
 }
